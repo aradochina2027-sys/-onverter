@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Converter</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabLength">
+       <attribute name="title">
+        <string>Length</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="layoutLength">
+        <item>
+         <layout class="QHBoxLayout" name="rowTopL">
+          <item>
+           <widget class="QLineEdit" name="editTopL"/>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboTopUnitL">
+            <item><property name="text"><string>meters (m)</string></property></item>
+            <item><property name="text"><string>kilometers (km)</string></property></item>
+            <item><property name="text"><string>inches (in)</string></property></item>
+            <item><property name="text"><string>feet (ft)</string></property></item>
+            <item><property name="text"><string>miles (mi)</string></property></item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="rowBottomL">
+          <item>
+           <widget class="QLineEdit" name="editBottomL"/>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBottomUnitL">
+            <item><property name="text"><string>meters (m)</string></property></item>
+            <item><property name="text"><string>kilometers (km)</string></property></item>
+            <item><property name="text"><string>inches (in)</string></property></item>
+            <item><property name="text"><string>feet (ft)</string></property></item>
+            <item><property name="text"><string>miles (mi)</string></property></item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabMass">
+       <attribute name="title">
+        <string>Mass</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="layoutMass">
+        <item>
+         <layout class="QHBoxLayout" name="rowTopM">
+          <item>
+           <widget class="QLineEdit" name="editTopM"/>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboTopUnitM">
+            <item><property name="text"><string>kilograms (kg)</string></property></item>
+            <item><property name="text"><string>pounds (lb)</string></property></item>
+            <item><property name="text"><string>ounces (oz)</string></property></item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="rowBottomM">
+          <item>
+           <widget class="QLineEdit" name="editBottomM"/>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBottomUnitM">
+            <item><property name="text"><string>kilograms (kg)</string></property></item>
+            <item><property name="text"><string>pounds (lb)</string></property></item>
+            <item><property name="text"><string>ounces (oz)</string></property></item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabTemp">
+       <attribute name="title">
+        <string>Temperature</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="layoutTemp">
+        <item>
+         <layout class="QHBoxLayout" name="rowTopT">
+          <item>
+           <widget class="QLineEdit" name="editTopT"/>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboTopUnitT">
+            <item><property name="text"><string>Celsius (°C)</string></property></item>
+            <item><property name="text"><string>Fahrenheit (°F)</string></property></item>
+            <item><property name="text"><string>Kelvin (K)</string></property></item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="rowBottomT">
+          <item>
+           <widget class="QLineEdit" name="editBottomT"/>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBottomUnitT">
+            <item><property name="text"><string>Celsius (°C)</string></property></item>
+            <item><property name="text"><string>Fahrenheit (°F)</string></property></item>
+            <item><property name="text"><string>Kelvin (K)</string></property></item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
